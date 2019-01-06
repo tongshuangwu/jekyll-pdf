@@ -8,7 +8,7 @@ module Jekyll
 
       def initialize(site, base, page)
         @site = site
-        @base = base
+        @base = ''
         @dir = File.dirname(page.url)
         @name = File.basename(page.url, File.extname(page.url)) + '.pdf'
         @settings = site.config.key?('pdf') ? site.config['pdf'].clone : {}
