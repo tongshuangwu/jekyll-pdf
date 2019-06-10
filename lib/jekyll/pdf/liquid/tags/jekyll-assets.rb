@@ -1,4 +1,5 @@
-try_require "jekyll-assets" do
+begin
+  require 'jekyll-assets'
 
   module Jekyll
     module PDF
@@ -43,4 +44,6 @@ try_require "jekyll-assets" do
     Liquid::Template.register_tag tag, Jekyll::PDF::AssetsTag
   end
 
+  rescue LoadError => e
+    raise unless e.message =~ /jekyll-assets/
 end
