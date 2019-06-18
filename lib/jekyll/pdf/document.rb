@@ -7,7 +7,7 @@ module Jekyll
       include Helper
 
       def initialize(site, base, page)
-        #site.config['baseurl'] = ''
+        site.config['baseurl'] = ''
         @site = site
         @base = base
         @dir = File.dirname(page.url)
