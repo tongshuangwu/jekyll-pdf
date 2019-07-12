@@ -13,11 +13,6 @@ matrix:
   allow_failures:
     - rvm: *rhead
 
-notifications:
-  email:
-    recipients:
-      - adam@abemedia.co.uk
-
 deploy:
   provider: rubygems
   api_key: $RUBYGEMS_KEY

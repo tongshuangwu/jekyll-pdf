@@ -2,8 +2,8 @@
 
 Dynamically generate PDFs from Jekyll pages, posts &amp; documents.
 
-[![Build Status](https://travis-ci.org/abeMedia/jekyll-pdf.svg?branch=master)](https://travis-ci.org/abeMedia/jekyll-pdf)
-[![Dependency Status](https://gemnasium.com/badges/github.com/abeMedia/jekyll-pdf.svg)](https://gemnasium.com/github.com/abeMedia/jekyll-pdf)
+[![Build Status](https://travis-ci.org/jekyll-pdf/jekyll-pdf.svg?branch=master)](https://travis-ci.org/jekyll-pdf/jekyll-pdf)
+[![Dependency Status](https://gemnasium.com/badges/github.com/jekyll-pdf/jekyll-pdf.svg)](https://gemnasium.com/github.com/jekyll-pdf/jekyll-pdf)
 
 ## Usage
 
@@ -94,8 +94,3 @@ Please note that wkhtmltopdf requires all partials to be valid HTML documents fo
 
 If your images aren't displaying in the PDF, this is most likely due to the fact that wkhtmltopdf doesn't know where to look. Try prefixing your image URLs with `file://{{ site.dest }}`.  
 For asset URLs in CSS files we recommend creating a separate CSS file overriding the URLs with the prefix mentioned above.
-
-
-## Copyright
-
-&copy; 2016 Adam Bouqdib - http://abemedia.co.uk

@@ -5,9 +5,9 @@ Gem::Specification.new do |spec|
   spec.description   = "A Jekyll plugin for generating PDFs from your pages, posts & documents."
 
   spec.license       = "GPL-3.0"
-  spec.homepage      = "http://github.com/abemedia/jekyll-pdf/"
-  spec.authors       = ["Adam Bouqdib"]
-  spec.email         = ["adam@abemedia.co.uk"]
+  spec.homepage      = "http://github.com/jekyll-pdf/jekyll-pdf/"
+  spec.authors       = ["Robin Vobruba"]
+  spec.email         = ["hoijui.quaero@gmail.com"]
 
   spec.files         = `git ls-files`.split($/)
   spec.has_rdoc      = false
