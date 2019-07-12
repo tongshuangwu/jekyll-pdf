@@ -2,8 +2,12 @@
 
 Dynamically generate PDFs from Jekyll pages, posts &amp; documents.
 
-[![Build Status](https://travis-ci.org/jekyll-pdf/jekyll-pdf.svg?branch=master)](https://travis-ci.org/jekyll-pdf/jekyll-pdf)
-[![Dependency Status](https://gemnasium.com/badges/github.com/jekyll-pdf/jekyll-pdf.svg)](https://gemnasium.com/github.com/jekyll-pdf/jekyll-pdf)
+[![Build Status](
+	https://travis-ci.org/jekyll-pdf/jekyll-pdf.svg?branch=master)](
+	https://travis-ci.org/jekyll-pdf/jekyll-pdf)
+[![Dependency Status](
+	https://gemnasium.com/badges/github.com/jekyll-pdf/jekyll-pdf.svg)](
+	https://gemnasium.com/github.com/jekyll-pdf/jekyll-pdf)
 
 ## Usage
 
